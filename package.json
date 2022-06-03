@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-isalib",
+  "version": "1.1.0",
+  "description": "Belajar Buat Package NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Izzan Silmi Aziz",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./number": "./number.js"
+
+  }
+}
